@@ -122,6 +122,31 @@ li {
     font-size: 20px;
 }
 
+.product.layout.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframe-container {
+    width: 485px; /* Set the width of the iframe */
+    max-width: 100%; /* Ensure it doesn't exceed the parent's width */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 402px; /* Set the height of the iframe */
+}
+
+.text-content {
+    width: 100%;
+    max-width: 485px; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+}
+
+
+
 /* Khusus Ukuran Handphone */
 @media (max-width: 992px) {
     .navbar {
@@ -147,5 +172,9 @@ li {
     .card-layout:nth-of-type(2) .card-image,
     .card-layout:nth-of-type(4) .card-image {
         order: 1;
+    }
+
+    .product.layout.text-center {
+        flex-direction: column;
     }
 }
