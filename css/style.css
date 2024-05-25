@@ -112,6 +112,15 @@ main {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+}
+
 /* Khusus Ukuran Handphone */
 @media (max-width: 992px) {
     .navbar {
