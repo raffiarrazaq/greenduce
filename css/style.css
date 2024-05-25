@@ -103,8 +103,8 @@ main {
 .background-footer {
     background-color: #AABE9B;
     margin-top: 100px;
-    padding: 20px; /* Padding untuk memberi ruang di sekitar konten */
-    width: 100%; /* Lebar maksimum */
+    padding: 20px;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -114,6 +114,7 @@ main {
 
 ul {
     list-style: none;
+    margin-top: 30px;
 }
 
 li {
